@@ -2,13 +2,15 @@
 const produits = [
   { date: "2018-2021", titre: "Collège du Vivarais", prix: "07 270 Lamastre", description: "Un petit collège dans la campagne" },
   { date: "2021-2024", titre: "Lycée Marius Bouvier", prix: "07 300 Tournon", description: "Un lycée dans une petite ville d'Ardéche" },
-  { date: "2024-2026", titre: "Pôle Sup Saint Denis", prix: "07 100 Annonay", description: "Un grand établissement parmis les meilleurs de l'Ardèche" },
+  { date: "2024-2026", titre: "Pôle Sup Saint Denis", prix: "07 100 Annonay", description: "Un grand établissement parmis les meilleurs d'Ardèche" },
+  { date: "2026-2027", titre: "Pôle Sup Saint Denis", prix: "07 100 Annonay", description: "Un grand établissement parmis les meilleurs d'Ardèche" },
 ];
 
 const produits2 = [
     { date: "2021", titre: "Brevet des collèges", prix: "Collège du Vivarais", description: "" },
     { date: "2024", titre: "Bac Professionnel SN RISC", prix: "Lycée Marius Bouvier", description: "" },
     { date: "2026", titre: "BTS SIO", prix: "Pôle Sup Saint Denis", description: "" },
+    { date: "2027", titre: "L3 Informatique", prix: "Pôle Sup Saint Denis", description: "" },
   ];
 
 // Sélectionne l'élément avec l'ID "listedupanier" pour insérer les produits
